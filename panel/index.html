@@ -1,0 +1,349 @@
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="http://crm.maantietaja.org/styles.css">
+<link href='https://fonts.googleapis.com/css?family=Source Code Pro' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="https://www.tutorialspoint.com/themes/easyui/gray/easyui.css">
+<link rel="stylesheet" type="text/css" href="https://www.tutorialspoint.com/themes/css/icon.css">
+<link rel="stylesheet" type="text/css" href="https://www.tutorialspoint.com/cg/cg.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://htmlcolorcodes.com/assets/javascripts/application-00a7bd28.js"></script>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="content-language" content="en">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://htmlcolorcodes.com/assets/stylesheets/application-1031957b.css" rel="stylesheet" />
+<title>Panel | Maamedia tools</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="icon" 
+      type="image/png" 
+      href="https://commons.maamedia.org/images/4/4f/Maamedia_Phabricator.png"><style>
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 21px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+
+}
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+.viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+}
+
+@media screen and (max-width:320px) {
+  /* CSS for screens that are 320 pixels or less will be put in this section */
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+    <div class="alert alert-danger" role="alert">
+  This panel is under development, meaning it is not yet fully completed. If you would like to suggest ideas for this panel, email them to <a href="mailto:mito@maamedia.org">mito@maamedia.org</a>.
+</div>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Check new updates
+  </button>
+
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    There are plenty of updates coming to this panel. Here is a list of them, but not all of them can be found here.    
+<br>
+- Multi-page panel; not everything is on the same page,
+<br>
+- Search widget, 
+<br>
+- Code/Text editor (like WYSIWYG),
+<br>
+- Tooltips,
+<br>
+- Opinion inquiry form,
+<br>
+- A changing wallpaper with each descent,
+<br>
+- When you click the button, a CSS and JS widget is generated (for example, a flight of a serpentine),
+<br>
+- Ability to create a new user account in the panel and log in to all Maamedia wikis.
+      </div>
+</div>
+<br>
+<a href="http://phabricator.maamedia.org" target="_blank"><button class="btn btn-primary" style="width:250px; height:250px;">Phabricator</button></a>
+<a href="https://meta.maamedia.org/wiki/Special:MyLanguage/Main_Page" target="_blank"><button class="btn btn-primary" style="width:250px; height:250px;">Meta-Wiki</button></a>
+<a href="https://commons.maamedia.org" target="_blank"><button class="btn btn-primary" style="width:250px; height:250px;">Commons-Wiki</button></a>
+<a href="https://data.maamedia.org" target="_blank"><button class="btn btn-primary" style="width:250px; height:250px;">Data-Wiki</button></a>
+<a href="https://en.masymanwiki.org" target="_blank"><button class="btn btn-primary" style="width:250px; height:250px;">English Masymanwiki</button></a>
+<a href="https://news.maantietaja.org" target="_blank"><button class="btn btn-primary" style="width:250px; height:250px;">News-Wiki<span style="color:white; background-color:red" class="badge badge-danger">Closed for now</span></button></a>
+<a href="https://community.maamedia.org" target="_blank"><button class="btn btn-primary" style="width:250px; height:250px;">Community-Wiki<span style="color:white; background-color:red" class="badge badge-danger">Closed for now</span></button></a>
+<a href="https://beta.maamedia.org" target="_blank"><button class="btn btn-primary" style="width:250px; height:250px;">Beta-Wiki<span style="color:white; background-color:red" class="badge badge-danger">Closed for now</span></button></a>
+<a href="https://code.maamedia.org" target="_blank"><button class="btn btn-primary" style="width:250px; height:250px;">Code-Wiki<span style="color:white; background-color:red" class="badge badge-danger">Closed for now</span></button></a>
+<a href="https://login.maamedia.org" target="_blank"><button class="btn btn-primary" style="width:250px; height:250px;">Login-Wiki<span style="color:white; background-color:red" class="badge badge-danger">Closed for now</span></button></a>
+<a href="https://tools.maamedia.org" target="_blank"><button class="btn btn-primary" style="width:250px; height:250px;">Maamedia Tools</button></a>
+<a href="https://editor.freelogodesign.org" target="_blank"><button class="btn btn-primary" style="width:250px; height:250px;">FreeLogoDesign</button></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia" target="_blank"><button class="btn btn-primary" style="width:250px; height:250px;">Webchat Freenode</button></a>
+<a href="https://crm.maamedia.org/chat" target="_blank"><button class="btn btn-primary" style="width:250px; height:250px;">Maachat+</button></a>
+
+<br>
+<h1>Recent changes</h1>
+<a href="https://meta.maamedia.org/wiki/Special:RecentChanges" target="_blank"><button class="btn btn-primary" style="width:130px; height:60px;">Meta</button></a>
+<a href="https://commons.maamedia.org/wiki/Special:RecentChanges" target="_blank"><button class="btn btn-primary" style="width:130px; height:60px;">Commons</button></a>
+<a href="https://community.maamedia.org/wiki/Special:RecentChanges" target="_blank"><button class="btn btn-primary" style="width:130px; height:60px;"><span style="color:white; background-color:red" class="badge badge-danger">Closed for now</span>Community</button></a>
+<a href="https://code.maamedia.org/wiki/Special:RecentChanges" target="_blank"><button class="btn btn-primary" style="width:130px; height:60px;"><span style="color:white; background-color:red" class="badge badge-danger">Closed for now</span>Code</button></a>
+<a href="https://beta.maamedia.org/wiki/Special:RecentChanges" target="_blank"><button class="btn btn-primary" style="width:130px; height:60px;"><span style="color:white; background-color:red" class="badge badge-danger">Closed for now</span>Beta</button></a>
+<a href="https://data.maamedia.org/wiki/Special:RecentChanges" target="_blank"><button class="btn btn-primary" style="width:130px; height:60px;">Data</button></a>
+<a href="https://login.maamedia.org/wiki/Special:RecentChanges" target="_blank"><button class="btn btn-primary" style="width:130px; height:60px;"><span style="color:white; background-color:red" class="badge badge-danger">Closed for now</span>Login-Wiki</button></a>
+<a href="https://commonstest.maamedia.org/wiki/Special:RecentChanges" target="_blank"><button class="btn btn-primary" style="width:130px; height:60px;"><span style="color:white; background-color:red" class="badge badge-danger">Closed for now</span>Commons-Test</button></a>
+
+<h1>Others (wikis)</h1>
+<p>All links under this heading point to Maamedia Meta.</p>
+<a href="https://meta.maamedia.org/wiki/Special:CentralAuth" target="_blank"><button class="btn btn-primary" style="width:130px; height:60px;">CentralAuth</button></a>
+<a href="https://meta.maamedia.org/wiki/Special:CreateAccount" target="_blank"><button class="btn btn-primary" style="width:130px; height:60px;">CreateAccount</button></a>
+<a href="https://meta.maamedia.org/wiki/Special:UserLogin" target="_blank"><button class="btn btn-primary" style="width:130px; height:60px;">Login</button></a>
+
+
+<h1><img src="https://commons.maamedia.org/images/b/b0/Masymanwiki_Logo.png" style="width:25px; height:25px;">List of Masymanwikis</h1>
+<h2 style="color:red">At the moment some Masymanwikis are closed for memory reasons.</h2>
+<p>All Masymanwiki that are open can be found after this list.</p>
+<a href="https://en.masymanwiki.org" target="_blank"><button class="btn btn-primary" style="width:30px; height:30px;">en</button></a>
+<a href="https://fi.masymanwiki.org" target="_blank"><button class="btn btn-primary" style="width:30px; height:30px;">fi</button></a>
+<a href="https://es.masymanwiki.org" target="_blank"><button class="btn btn-primary" style="width:30px; height:30px;">es</button></a>
+<a href="https://fr.masymanwiki.org" target="_blank"><button class="btn btn-primary" style="width:30px; height:30px;">fr</button></a>
+<a href="https://sv.masymanwiki.org" target="_blank"><button class="btn btn-primary" style="width:30px; height:30px;">sv</button></a>
+<a href="https://de.masymanwiki.org" target="_blank"><button class="btn btn-primary" style="width:30px; height:30px;">de</button></a>
+<a href="https://id.masymanwiki.org" target="_blank"><button class="btn btn-primary" style="width:30px; height:30px;">id</button></a>
+<a href="https://no.masymanwiki.org" target="_blank"><button class="btn btn-primary" style="width:30px; height:30px;">no</button></a>
+<h3 style="color:green">Open Masymanwikis</h3>
+<a href="https://en.masymanwiki.org" target="_blank"><button class="btn btn-success" style="width:30px; height:30px;">en</button></a>
+<a href="https://fi.masymanwiki.org" target="_blank"><button class="btn btn-success" style="width:30px; height:30px;">fi</button></a>
+<a href="https://id.masymanwiki.org" target="_blank"><button class="btn btn-success" style="width:30px; height:30px;">id</button></a>
+
+<h1><img src="http://cdn.onlinewebfonts.com/svg/img_239979.png" style="width:25px; height:25px;">For stewards and administrators</h1>
+<a href="https://meta.maamedia.org/wiki/Special:Block" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">Block (Meta)</button></a>
+<a href="https://meta.maamedia.org/wiki/Special:GlobalBlock" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">GlobalBlock</button></a>
+<a href="https://meta.maamedia.org/wiki/Special:CheckUser" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">CheckUser</button></a>
+<a href="https://meta.maamedia.org/wiki/Special:MultiLock" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">Lock account</button></a>
+<a href="https://meta.maamedia.org/wiki/Stewards%27_noticeboard" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">Steward's noticeboard</button></a>
+<a href="https://meta.maamedia.org/wiki/Special:EditUser" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">EditUser</button></a>
+<a href="https://meta.maamedia.org/wiki/Special:GlobalUnblock" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">Delete GlobalBlock</button></a>
+<a href="https://meta.maamedia.org/wiki/Special:RenameUser" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">RenameUser</button></a>
+<a href="https://meta.maamedia.org/wiki/Special:GlobalRenameUser" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">Rename Global User</button></a>
+<a href="https://meta.maamedia.org/wiki/Special:Unblock" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">Unblock account (Meta)</button></a>
+
+<h1><img src="https://image.flaticon.com/icons/png/512/1436/1436708.png" style="width:25px; height:25px;">Steward Requests</h1>
+<a href="https://meta.maamedia.org/wiki/Steward_requests/Bot_status" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">Bot status</button></a>
+<a href="https://meta.maamedia.org/wiki/Steward_requests/Global_permissions" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">Global permissions</button></a>
+<a href="https://meta.maamedia.org/wiki/Steward_requests/Permissions" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">Permissions (local, for any Maamedia wiki) </button></a>
+<a href="https://meta.maamedia.org/wiki/Steward_requests/Username_changes" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">Username changes</button></a>
+<a href="https://meta.maamedia.org/wiki/Steward_requests/Miscellaneous" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">Miscellaneous requests</button></a>
+<a href="https://meta.maamedia.org/wiki/Steward_requests/Global" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">Global locks or blocks</button></a>
+<a href="https://meta.maamedia.org/wiki/Steward_requests/Checkuser" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">Permission of CheckUser (for any Maamedia wiki)</button></a>
+
+<h3>CRM tools<span class="badge badge-secondary">New</span></h3>
+<a href="https://crm.maamedia.org/dns" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">DNSLookup</button></a>
+<a href="https://crm.maamedia.org/whois" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">WHOISLookup</button></a>
+<a href="https://crm.maamedia.org/social" target="_blank"><button class="btn btn-primary" style="width:190px; height:130px;">Maasome (Social Network)</button></a>
+
+<h3>Emails</h3>
+<button class="btn btn-primary" id="myBtn">Open email popup</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <h2>Maamedia emails</h2>
+    </div>
+    <div class="modal-body">
+      <p><code>mito@maamedia.org</code> | Mito's own e-mail
+<br>
+<code>puma@maamedia.org</code> | Puma's own e-mail
+<br>
+<code>stewards@maamedia.org</code> | Maamedia stewards own e-mail
+<br>
+<code>info@maamedia.org</code> | Maamedia general, questions and information inquirys e-mail
+<br></p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+<h3>IRC Channels</h3>
+<a href="https://webchat.freenode.net/?channels=#maamedia"><code>#maamedia</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-stewards"><code>#maamedia-stewards</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-coding"><code>#maamedia-coding</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-mobile"><code>#maamedia-mobile</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-masymanwiki-help"><code>#maamedia-masymanwiki-help</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-commons"><code>#maamedia-commons</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-policies"><code>#maamedia-policies</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-admin"><code>#maamedia-admin</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-commons-admin"><code>#maamedia-commons-admin</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-masymanwiki-admin"><code>#maamedia-masymanwiki-admin</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-checkuser"><code>#maamedia-checkuser</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-vandalism"><code>#maamedia-vandalism</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-social"><code>#maamedia-social</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-bugs"><code>#maamedia-bugs</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-admin-global"><code>#maamedia-admin-global</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-planning"><code>#maamedia-planning</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-rename"><code>#maamedia-rename</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-translation"><code>#maamedia-translation</code></a>
+<a href="https://webchat.freenode.net/?channels=#maamedia-office"><code>#maamedia-office</code></a>
+<br>
+<h2><img src="https://www.iconpacks.net/icons/2/free-settings-icon-3110-thumb.png" style="width:25px; height:25px;">Panel Settings</h2>
+<button class="btn btn-primary" onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+<center>
+
+<h4>About this panel</h4></center>
+
+<center><p>
+    
+    This panel was developed by one of the founders of Maamedia. The original panel developer is Mito, whose HTML skills are limited. And this panel is nothing special yet, but at least it makes it easier somehow. The panel gives you one-touch access to the different places Maamedia needs: like all wikis and wiki special page <b><tt class="remarkup-monospaced" style="color:#17BF17;">Special:RecentChanges</tt></b>, it’s important for undoing and detecting special page vandalism. In this panel, Maamedia and Mito will be happy to make suggestions for development, which you can submit to him by e-mail (<a href="mailto:mito@maamedia.org">link</a>) or by leaving a message on his discussion page in Meta (<a href="https://meta.maamedia.org/wiki/User_talk:Mito">link</a>).
+</p></center>
+
+<div class="footer">
+<footer>Credits for this panel: <a href="https://meta.maamedia.org/wiki/User:Mito">Mito</a> | Maamedia 2021</footer></div>
+
+</body>
+</html>
